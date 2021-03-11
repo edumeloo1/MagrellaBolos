@@ -1,0 +1,240 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <!-- INÍCIO DO HEADER -->
+    <ion-row>
+      <div id="retangulo"></div>
+      <img class="img_perfil" (click)="abrirMenu()"
+        src="../../../assets/Imagens/Screenshot_2021-01-25 Magrella • Café Pâtisserie ( magrellabolos) • Fotos e vídeos do Instagram.png">
+      <ion-col>
+        <div class="ion-text-center">
+          <p class="text_entrega">Entrega: Rua Petrolina, 100</p>
+        </div>
+      </ion-col>
+      <img class="img_bag" src="../../../assets/Imagens/shopping-bag.svg">
+      <!-- FIM DO HEADER -->
+
+      <!-- SEARCHBAR -->
+      <ion-searchbar class="searchbar" placeholder="Pesquise pelo seu item favorito"></ion-searchbar>
+
+      <!-- SLIDES -->
+      <div>
+        <ion-row>
+          <ion-slides class="slides" pager="true">
+            <ion-slide>
+              <img src="../../../assets/Imagens/Magrella---Banner-APP.png">
+            </ion-slide>
+            <ion-slide>
+              <img src="../../../assets/Imagens/Magrella---Banner-APP.png">
+            </ion-slide>
+            <ion-slide>
+              <img src="../../../assets/Imagens/Magrella---Banner-APP.png">
+            </ion-slide>
+          </ion-slides>
+        </ion-row>
+      </div>
+      <!-- FIM DOS SLIDES -->
+
+      <!-- PROGRESS BAR FIDELIDADE -->
+      <div class="ion-text-center">
+        <ion-row>
+          <p class="text_fideli">Fidelidade Magrella</p>
+          <ion-card class="card_points">
+            <p class="text_points">28 PONTOS</p>
+          </ion-card>
+        </ion-row>
+      </div>
+
+      <div>
+        <ion-row style="margin-left: 20px;">
+          <ion-col>
+            <img style="margin-left: 40px;" src="../../../assets/Imagens/cupcake (1).svg">
+            <ion-progress-bar class="progressBar_fideli" value="1"></ion-progress-bar>
+          </ion-col>
+
+          <ion-col>
+            <img style="margin-left: 40px;" src="../../../assets/Imagens/cupcake.svg">
+            <ion-progress-bar class="progressBar_fideli" value="0.3"></ion-progress-bar>
+          </ion-col>
+
+          <ion-col>
+            <img style="margin-left: 40px;" src="../../../assets/Imagens/cupcake.svg">
+            <ion-progress-bar class="progressBar_fideli" value="0"></ion-progress-bar>
+          </ion-col>
+
+          <ion-col>
+            <img style="margin-left: 40px;" src="../../../assets/Imagens/cupcake.svg">
+            <ion-progress-bar class="progressBar_fideli" value="0"></ion-progress-bar>
+          </ion-col>
+
+          <ion-col>
+            <img style="margin-left: 40px;" src="../../../assets/Imagens/cupcake.svg">
+            <ion-progress-bar class="progressBar_fideli" value="0"></ion-progress-bar>
+          </ion-col>
+        </ion-row>
+      </div>
+      <!-- FIM PROGRESS BAR -->
+
+      <div>
+        <p class="text_pedir">Peça novamente</p>
+        <ion-slides [options]="slideOpts" class="slidepedido">
+          <ion-row>
+            <ion-slide>
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Naked Cake</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/semi-naked-cake-tutorial-15.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Semi Naked...</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Naked Cake</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Naked Cake</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Naked Cake</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+
+              <ion-card class="card_pedir">
+                <ion-row>
+                  <img class="naked_img" src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+                  <ion-col class="ion-text-center">
+                    <h6 class="text_naked"><b>Naked Cake</b></h6>
+                    <p class="text_naked2">3 camadas, massa branca, baunilha...</p>
+                    <p class="text_naked_preco">R$59,90</p>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+            </ion-slide>
+          </ion-row>
+        </ion-slides>
+      </div>
+
+      <div>
+        <p class="text_encomenda">Encomende seu bolo</p>
+        <ion-row class="cards_encomen">
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/Strawberry-Layer-Cake.jpg">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Naked Cake</p>
+          </ion-col>
+
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/mousse.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Mousse</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="cards_encomen">
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/chantily.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Chantilly</p>
+          </ion-col>
+
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/alturadupla.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Altura Dupla</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="cards_encomen">
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/espatulado.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Espatulado</p>
+          </ion-col>
+
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/vulcão.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Vulcão</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="cards_encomen">
+          <ion-col class="card_bolos_encomen">
+            <ion-card>
+              <img src="../../../assets/Imagens/espatulado.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Coco</p>
+          </ion-col>
+
+          <ion-col>
+            <ion-card class="card_bolos_encomen">
+              <img src="../../../assets/Imagens/vulcão.png">
+            </ion-card>
+            <div id="div_bolo1"></div>
+            <p class="text_bolo1">Camadas</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-row>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div id="footer">
+      <img class="home" src="../../../assets/Imagens/quarantine.svg">
+      <img class="pedidos" src="../../../assets/Imagens/Component 6 – 2.svg">
+      <img class="saves" src="../../../assets/Imagens/Component 7 – 2.svg">
+    </div>
+  </div>
+</ion-content>
