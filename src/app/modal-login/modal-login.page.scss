@@ -6,11 +6,19 @@
 #cardLogin{
     width: 317px;
     height: 333px;
-    margin-top: 140px;
-    margin-left: 25px;
+    // margin-top: 140px;
+    // margin-left: 130px;
+    // margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     background-color: #F0F5EA;
-    position: fixed;
+    //position: fixed;
     border-radius: 25px;
+    position:absolute;
+    top:25%;
+    left:30%;
+    margin-top:-50px;
+    margin-left:-50px;
 }
 
 .text_login1{
@@ -26,6 +34,7 @@
     height: 40px;
     border-radius: 20px;
     margin-top: -10px;
+    margin-left: auto;
 }
 
 .imgFace{
