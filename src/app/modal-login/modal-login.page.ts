@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-modal-login',
@@ -8,14 +9,19 @@ import { Router } from '@angular/router';
 })
 export class ModalLoginPage implements OnInit {
 
-  constructor( private router: Router) { }
+  constructor(private router: Router, private modalCtrl: ModalController) { }
 
   ngOnInit() {
   }
 
   goToHome() {
     this.router.navigate(['/home']);
+    console.log('clicou!');
+  }
 
-    console.log('clicou!')
-}
+  setModal() {
+    this.modalCtrl.dismiss({
+      'dismissed': true
+    })
+  }
 }

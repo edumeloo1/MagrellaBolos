@@ -1,47 +1,43 @@
 .imgModal{
-    filter: blur(2px);
-    position: absolute;
+ filter: blur(2px);
+ position: absolute;
 }
 
 #cardLogin{
-    width: 317px;
-    height: 333px;
-    // margin-top: 140px;
-    // margin-left: 130px;
-    // margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    background-color: #F0F5EA;
-    //position: fixed;
-    border-radius: 25px;
-    position:absolute;
-    top:25%;
-    left:30%;
-    margin-top:-50px;
-    margin-left:-50px;
+ width: 317px;
+ height: 333px;
+ align-items: center;
+ justify-content: center;
+ background-color: #F0F5EA;
+ border-radius: 25px;
+ position:absolute;
+ top:25%;
+ left: 20%;
+ margin-top:-50px;
+ margin-left:-50px;
 }
 
 .text_login1{
-    text-align: center;
-    font-family: 'Barlow Medium';
-    font-size: 16px;
-    margin-top: 30px;
+ text-align: center;
+ font-family: 'Barlow Medium';
+ font-size: 16px;
+ margin-top: 30px;
 }
 
 .cardFace{
-    background-color: #4267B2;
-    width: 274px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: -10px;
-    margin-left: auto;
+ background-color: #4267B2;
+ width: 274px;
+ height: 40px;
+ border-radius: 20px;
+ margin-top: -8px;
+ margin-left: 20px;
 }
 
 .imgFace{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+ width: 20px;
+ height: 20px;
+ margin-top: 10px;
+ margin-left: 50px;
 }
 
 .text_facebook{
@@ -53,92 +49,96 @@ margin-top: 7px;
 }
 
 .cardGoogle{
-    background-color: white;
-    width: 274px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: -10px;
+ background-color: white;
+ width: 274px;
+ height: 40px;
+ border-radius: 20px;
+ margin-top: -12px;
+ margin-left: 20px;
 }
 
 .imgGoogle{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+ width: 20px;
+ height: 20px;
+ margin-top: 10px;
+ margin-left: 50px;
 }
 
 .textGoogle{
-color: black;
-font-size: 16px;
-font-family: 'Barlow ';
-margin-left: 10px;
-margin-top: 7px;
+ color: black;
+ font-size: 16px;
+ font-family: 'Barlow ';
+ margin-left: 10px;
+ margin-top: 7px;
 }
 
 .cardApple{
-    background-color: black;
-    width: 274px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: -10px;
+ background-color: black;
+ width: 274px;
+ height: 40px;
+ border-radius: 20px;
+ margin-top: -10px;
+ margin-left: 20px;
 }
 
 .imgApple{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+ width: 20px;
+ height: 20px;
+ margin-top: 10px;
+ margin-left: 50px;
 }
 
 .textApple{
-    color: white;
-    font-size: 16px;
-    font-family: 'Barlow ';
-    margin-left: 10px;
-    margin-top: 7px;
+ color: white;
+ font-size: 16px;
+ font-family: 'Barlow ';
+ margin-left: 10px;
+ margin-top: 7px;
+ margin-left: 20px;
 }
 
 .cardEmail{
-    background-color: #E691B0;
-    width: 274px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: -10px;
+ background-color: #E691B0;
+ width: 274px;
+ height: 40px;
+ border-radius: 20px;
+ margin-top: -10px;
+ margin-left: 20px;
 }
 
 .imgEmail{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+ width: 20px;
+ height: 20px;
+ margin-top: 10px;
+ margin-left: 50px;
 }
 
 .textEmail{
-    color: white;
-    font-size: 16px;
-    font-family: 'Barlow ';
-    margin-left: 10px;
-    margin-top: 7px;
+ color: white;
+ font-size: 16px;
+ font-family: 'Barlow ';
+ margin-left: 10px;
+ margin-top: 7px;
 }
 
 .text_ou{
-    color: #BEBEBE;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Barlow';
-    margin-top: -15px;
+ color: #BEBEBE;
+ text-align: center;
+ font-size: 12px;
+ font-family: 'Barlow';
+ margin-top: -15px;
 }
 
 .textCrie{
-    text-align: center;
-    font-family: 'Barlow Medium';
-    font-size: 16px;
-    margin-top: -10px;
+ text-align: center;
+ font-family: 'Barlow Medium';
+ font-size: 16px;
+ margin-top: -10px;
 }
 
 .btn_entrar{
-    margin-top: 520px;
-    height: 50px;
---background: #594036;
-filter: blur(1px);
+ margin-top: 520px;
+ height: 50px;
+ --background: #594036;
+ filter: blur(1px);
 }

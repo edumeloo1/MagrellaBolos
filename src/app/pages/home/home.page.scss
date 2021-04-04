@@ -66,9 +66,9 @@
   border-radius: 50px;
 }
 
-.slides{
-  margin-top: -70px;
-}
+// .slides{
+//   margin-top: -70px;
+// }
 
 .text_fideli{
   margin-left: 20px;
@@ -76,7 +76,7 @@
   font-family: 'Fraunces';
   color: #594036;
   margin-top: 28px;
-  margin: 0 auto;
+  margin-left: 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -86,7 +86,7 @@
   height: 28px;
   width: 129px;
   margin-top: 25px;
-  margin: 0 auto;
+  margin-left: 0 auto;
   float: end;
   position: relative;
   background-color: #e8d1d8;
@@ -107,118 +107,119 @@
   --progress-background:#594036;
 }
 
-// .text_pedir{
-//   margin-left: 20px;
-//   font-size: 22px;
-//   font-family: 'Fraunces';
-//   color: #594036;
-//   margin-top: 30px;
-// }
+.text_pedir{
+  margin-left: 20px;
+  font-size: 22px;
+  font-family: 'Fraunces';
+  color: #594036;
+  margin-top: 30px;
+}
 
-// .card_pedir{
-//   border-radius: 10px;
-//   width: 220px;
-// }
+.card_pedir{
+  border-radius: 10px;
+  width: 220px;
+}
 
-// .slidepedido{
-//   margin-top: -30px;
-//   overflow-x: scroll;
-// }
+.slidepedido{
+  margin-top: -30px;
+  overflow-x: scroll;
+}
 
-// .naked_img{
-//   width: 90px;
-//   height: 95px;
-// }
+.naked_img{
+  width: 90px;
+  height: 95px;
+}
 
-// .text_naked{
-//   margin-top: 4px;
-//   text-align: center;
-//   font-family: 'Barlow Semi';
-//   font-size: 18px;
-//   float: left;
-//   color: #594036;
-//   margin-left: 10px;
-// }
+.text_naked{
+  margin-top: 2px;
+  text-align: center;
+  font-family: 'Barlow Semi';
+  font-size: 18px;
+  float: left;
+  color: #594036;
+  margin-left: 10px;
+}
 
-// .text_naked2{
-//   margin-top: -8px;
-//   font-size: 13px;
-//   float: left;
-//   text-align: center;
-//   margin-left: 10px;
-// }
+.text_naked2{
+  margin-top: -10px;
+  font-size: 13px;
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
 
-// .text_naked_preco{
-//   margin-top: -10px;
-//   font-size: 12px;
-//   font-family: 'Barlow Semi';
-//   color: #594036;
-//   float: left;
-//   margin-left: 10px;
-// }
+.text_naked_preco{
+  margin-top: -12px;
+  font-size: 12px;
+  font-family: 'Barlow Semi';
+  color: #594036;
+  float: left;
+  margin-left: 10px;
+}
 
-// .text_encomenda{
-//   margin-left: 20px;
-//   font-size: 22px;
-//   font-family: 'Fraunces';
-//   color: #594036;
-//   margin-top: 20px;
-// }
+.text_encomenda{
+  margin-left: 20px;
+  font-size: 22px;
+  font-family: 'Fraunces';
+  color: #594036;
+  margin-top: 20px;
+}
 
-// .cards_encomen{
-//  margin-top: -30px;
-// }
+.cards_encomen{
+ margin-top: -30px;
+}
 
-// .card_bolos_encomen{
-//   width: 145px;
-//   height: 145px;
-// }
+.card_bolos_encomen{
+  width: 145px;
+  height: 145px;
+}
 
-// .text_bolo1{
-//   font-family: 'Barlow Bold';
-//   font-size: 16px;
-//   text-align: center;
-//   margin-top: -24px;
-//   position:relative;
-//   color: #594036;
-// }
+.text_bolo1{
+  font-family: 'Barlow Bold';
+  font-size: 16px;
+  text-align: center;
+  margin-top: -24px;
+  position:relative;
+  color: #594036;
+}
 
-// #div_bolo1{
-//   margin-top: -52px;
-//   margin-left: 16px;
-//   position: relative;
-//   background-color: #F0F5EA;
-//   opacity: 0.6;
-//   border-end-end-radius: 10px;
-//   border-end-start-radius: 10px;
-//   height: 30px;
-//   width: 145px;
-// }
+#div_bolo1{
+  margin-top: -52px;
+  margin-left: 16px;
+  position: relative;
+  background-color: #F0F5EA;
+  opacity: 0.6;
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  height: 30px;
+  width: 145px;
+}
 
-// #footer{
-//   width: 1903px;
-//  height: 50px;
-//   border-top-left-radius: 50px;
-//   border-top-right-radius: 50px;
-//   background-color: #e8d1d8;
-//   z-index: 500;
-//   top: 56rem;
-// }
+#footer{
+  width: 0 auto;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #e8d1d8;
+  z-index: 11;
+  overflow:auto;
+  top: 5rem;
+}
 
-// .home{
-// float: left;
-// margin-top: 18px;
-// margin-left: 70px;
-// }
+.home{
+float: left;
+margin-top: 13px;
+margin-left: 70px;
+}
 
-// .pedidos{
-//   float: left;
-//   margin-top: 18px;
-//   margin-left: 70px;
-// }
+.pedidos{
+  float: left;
+  margin-top: 13px;
+  margin-left: 70px;
+}
 
-// .saves{
-//   float: left;
-//   margin-top: 18px;
-//   margin-left: 70px;
-// }
+.saves{
+  float: left;
+  margin-top: 13px;
+  margin-left: 70px;
+}
